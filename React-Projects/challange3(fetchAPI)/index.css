@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 22px;
+}
+
+body{
+  font-size: 1rem;
+  min-height: 100vh;
+}
+button{
+  font-size: 1rem;
+  width: 33.33%;
+  padding: 0.75rem;
+}
+
+form{
+  width: 100%;
+  position: fixed;
+}
+ button.selected{
+  background-color: black;
+  color: white;
+ }
+
+ ul {
+  padding: 3rem 2rem 1rem;
+  /* margin-top: 1rem;
+  padding: 0 2rem 1rem; */
+ }
+
+ li {
+  margin-bottom: 1rem;
+ }
+ 
+ .table-container {
+  width: 100%;
+  overflow-y: auto;
+  padding-top: 52px;
+}
+
+td {
+  border: 1px solid #000;
+  padding: 0.25rem;
+}
