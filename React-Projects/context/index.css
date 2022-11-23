@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+h1{
+ font-size: 1.2rem;
+ color: black;
+}
+.btn{
+  padding: 15px 20px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.center{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.field{
+  color: white;
+  background-color: black;
+  max-width: 150px;
+  padding: 50px;
+}
+.c{
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}

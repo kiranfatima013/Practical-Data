@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 22px;
+}
+
+body{
+  font-size: 1rem;
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
+button{
+  font-size: 1rem;
+  width: 33.33%;
+  padding: 0.75rem;
+}
+
+form{
+  width: 100%;
+}
+ button.selected{
+  background-color: black;
+  color: white;
+ }
+  ul {
+  padding: 0 2rem 1rem;
+ }
+
+ li{
+  padding-top: 4rem;
+ }
+
+ table{
+    display: inline-block;
+ }
+ .perItems{
+  justify-content: center;
+  align-items:center;
+  padding-top: 1rem;
+  margin-left: 20px
+  
+ }
+  .table-container {
+  width: 100%;
+  overflow-y: auto;
+  padding-top: 52px;
+}
+  .table-container h1 {
+    font-size: 1.2rem;
+  }
+td {
+  border: 1px solid #000;
+  padding: 0.25rem;
+}
+
+.radioButton{
+margin-top: 20px;
+}
+
+.radioButton input[type='radio']{
+  margin-right: 5px;
+  /* align-items:flex-start; */
+}
+.radioButton label {
+  padding-right: 15px;
+  color: crimson
+}
+.navSetting ul {
+display: flex;
+list-style: none;
+gap: 10px;
+font-size: 1.25rem;
+text-decoration: none;
+}
+.navSetting li{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+.navSetting h1{
+  margin-top: 2rem;
+  display: grid;
+  place-content: center;
+  padding-top: 1rem;
+  color: crimson;
+}
+thead {
+  color: crimson;
+}
+
+.back{
+  width: fit-content;
+  border-radius: 10px;
+  position:absolute ;
+  right: 70px;
+  top: 50px;
+  color: crimson;
+  border: 1px solid crimson;
+}
+
+.searchForm input[type="text"] {
+  font-family: 'Open Sans', sans-serif;
+  width: 450px;
+  min-height: 48px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  outline: none;
+  margin-top: 15px;
+  border: 1px solid crimson;
+}
+
+.searchForm label {
+  position: absolute;
+  left: -99999px;
+}
+ 
